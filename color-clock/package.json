@@ -4,8 +4,13 @@
   "description": "a clock that changes color",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo 'Hello World!'",
+    "start":"serve"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.29.3",
+    "serve": "^14.0.1"
+  }
 }
